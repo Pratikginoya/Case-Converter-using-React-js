@@ -5,7 +5,8 @@ export default function TextForm(props) {
     if(text.length === 0){
       props.showAlert("Enter something on text box", "danger");
     } else {
-      const newText = text.replace(/(^\s*\w|[\.\!\?]\s*\w|\bi\b)/g, function(match) {
+      let newText = text.toLowerCase();
+      newText = newText.replace(/(^\s*\w|[\.\!\?]\s*\w|\bi\b)/g, function(match) {
           return match.toUpperCase();
       });
       setText(newText.trim());
