@@ -20,4 +20,4 @@ Here some screenshots for your reference...
 ![Screenshot (77)](https://github.com/user-attachments/assets/004de0ee-cf95-454b-a40b-015c790ea033)
 
 
-Note :- Please install the packages to run the **npm install** command before use this project
+**Note :-** Please install the packages to run the **npm install** command before use this project
